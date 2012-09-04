@@ -1,0 +1,32 @@
+@CHARSET "UTF-8";
+
+/*登录界面*/
+
+#login{
+	width:300px;
+	height:200px;
+	margin:50px auto;
+	/* background:#939393; */
+}
+
+#login dl{
+	
+}
+
+#login dl dt{
+	font-size:18px;
+	font-weight:bold;
+	text-align:center;
+	height:30px;
+	line-height:30px;
+}
+
+#login dl dd{
+	height:26px;
+	line-height:26px;
+	margin-top:10px;
+}
+
+#login dl dd.subbtm{
+	text-align:center;
+}

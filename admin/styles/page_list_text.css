@@ -1,0 +1,13 @@
+@CHARSET 'UTF-8';
+/*分页列表的样式*/
+
+#pagelist-text{
+	margin-top:10px;
+}
+
+
+#pagelist-text ul li{
+	text-align: center;
+	height:22px;
+	line-height: 22px;
+}

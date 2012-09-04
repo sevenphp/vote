@@ -1,0 +1,80 @@
+@CHARSET "UTF-8";
+
+/*导航*/
+#nav{
+
+}
+
+#nav ul li{
+	width:960px;
+	height:37px;
+	line-height:37px;
+	background:url(../images/nav.gif);
+	margin-bottom:5px;
+}
+
+#nav ul li a{
+	display:block;
+	float:left;
+	margin:0 5px;
+	padding:0 10px;
+	color:#D7D7D7;
+}
+
+#nav ul li a:hover{
+	background-color:blue;
+	font-weight:bold;
+}
+
+/*网页主体内容*/
+#main{
+/* 	height:400px; */
+	border:1px #93c993 solid;
+}
+
+/*main-top 欢迎词*/
+#main-top{
+	text-align:center;
+	height:72px;
+	background:url(../images/main-top.gif) repeat-x;
+	margin-bottom:5px;
+}
+
+#main-top p{
+	width:930px;
+	margin:0 auto;
+	height:55px;
+	line-height:55px;
+	border-bottom:1px #93c993 dashed;
+}
+
+#main-top p span.blue{
+	color:blue;
+}
+
+/*后台首页 系统介绍*/
+#main-bottom{
+	width:600px;
+	margin:0 auto;
+}
+
+#main-bottom p{
+	text-align:center;
+	margin:10px 0;
+	font-weight:bold;
+	height:30px;
+	line-height:30px;
+}
+
+#main-bottom ul{
+	width:100px;
+	margin:0 auto;
+}
+
+#main-bottom ul li{
+	list-style-type:decimal;
+	height:30px;
+	line-height:30px;
+	margin:10px 0;
+}
+

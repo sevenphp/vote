@@ -1,0 +1,53 @@
+@CHARSET "UTF-8";
+
+#vote-detail{
+	min-height:320px;
+	/* line-height:320px; */
+	/* text-align:center; */
+}
+
+#vote-detail h4{
+	height:28px;
+	line-height:28px;
+	width:930px;
+	margin:10px auto;
+	text-align:center;
+	font-size:18px;
+	
+}
+
+#vote-detail table{
+	width:700px;
+	margin:0 auto;
+}
+
+#vote-detail table tr th{
+	font-size:13px;
+	height:22px;
+	line-height:22px;
+text-align:left;
+}
+
+#vote-detail table tr td{
+	height:22px;
+	line-height:22px;
+	font-size:12px;
+	text-align:left;
+}
+
+#vote-detail table tr td.list{
+	width:500px;
+}
+
+#vote-detail table tr td.count,#vote-detail table tr th.count{
+	width:200px;
+	text-align:center
+}
+
+#vote-detail table tr td.subbtm{
+	text-align:center;
+	height:70px;
+	line-height:70px;
+	font-size:16px;
+
+}

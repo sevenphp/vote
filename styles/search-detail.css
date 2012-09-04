@@ -1,0 +1,17 @@
+@CHARSET "UTF-8";
+
+#searchdetail{
+	width:900px;
+	margin:0 auto;
+	text-align:center;
+	min-height:300px;
+}
+
+#searchdetail h4{
+	margin:10px 0;
+}
+
+#searchdetail ul li{
+	height:26px;
+	line-height:26px;
+}

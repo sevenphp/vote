@@ -1,0 +1,36 @@
+@CHARSET "UTF-8";
+
+#add-notice{
+	width:350px;
+	min-height:300px;
+	margin:0 auto;
+}
+
+#add-notice dl{
+	text-align:center;
+}
+
+#add-notice dl dt{
+	height:30px;
+	line-height:30px;
+	text-align:center;
+	fon-size:16px;
+	font-weight:bold;
+}
+
+#add-notice dl dd{
+	margin:20px 0;
+/* 	height:26px;
+	line-height:26px; */
+	font-size:16px;
+}
+
+#add-notice dl dd input.title{
+	border:1px #D6D6D6 solid;
+	width:176px;
+}
+
+#add-notice dl dd textarea{
+	border:1px #D6D6D6 solid;
+	height:100px;
+}
