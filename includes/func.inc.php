@@ -232,7 +232,7 @@ function pageListText($info,$lj,$pagenum,$page){
 	echo '<li>'.$page.'/'.$pagenum.'页&nbsp;&nbsp;';
 	if($page == 1){
 		echo '首页&nbsp;&nbsp;';
-		echo '第一页&nbsp;&nbsp;';
+		echo '上一页&nbsp;&nbsp;';
 	}else{
 		echo '<a href="'.$info.'">首页</a>&nbsp;&nbsp;';
 		echo '<a href="'.$info.$lj.'page='.($page-1).'">上一页</a>&nbsp;&nbsp;';		

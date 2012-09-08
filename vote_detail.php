@@ -42,6 +42,10 @@
 	 		alertBack('你没有选择投票选项,请选择!');	
 	 	}
 	 	
+	 	//同ip限时投票
+	 	
+	 	//$nowTime = 
+	 	
 	 	$ipInfo = array();
 	 	$ipInfo['title'] = mysql_real_escape_string($_POST['title']);
 	 	$ipInfo['listid'] = mysql_real_escape_string($_POST['list']);
@@ -62,7 +66,10 @@
 				");
 	 	
 	 	if(mysql_affected_rows() == 1){
+	 		//$id = mysql_insert_id();
+	 		//$firstTime = time();
 	 		mysqlQuery("UPDATE `vt_list` SET `vt_count`=`vt_count`+1 WHERE `vt_id`='{$ipInfo['listid']}'");
+	 		//mysqlQuery("UPDATE `vt_ip` SET `vt_timelimit`='{$firstTime}' WHERE `vt_id`='{$id}'");
 	 		mysql_close($conn);
 	 		alertLocation('投票成功!', 'vote_detail.php?id='.$ipInfo['themeid']);
 	 	}elseif(mysql_affected_rows() == 0){
