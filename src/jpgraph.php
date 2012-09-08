@@ -201,8 +201,8 @@ if (!defined('TTF_DIR')) {
             define('TTF_DIR', $sroot.'/fonts/');
         }
     } else {
-        //define('TTF_DIR','/usr/share/fonts/truetype/');
-    	define('TTF_DIR','/media/Base/Windows/Fonts/');
+        define('TTF_DIR','/usr/share/fonts/truetype/');
+    	//define('TTF_DIR','/media/Base/Windows/Fonts/');
     }
 }
 
@@ -221,8 +221,8 @@ if (!defined('MBTTF_DIR')) {
             define('MBTTF_DIR', $sroot.'/fonts/');
         }
     } else {
-        //define('MBTTF_DIR','/usr/share/fonts/truetype/');
-    	define('MBTTF_DIR','/usr/share/fonts/wps-office/');
+        define('MBTTF_DIR','/usr/share/fonts/truetype/');
+    	//define('MBTTF_DIR','/usr/share/fonts/wps-office/');
     }
 }
 

@@ -8,6 +8,8 @@
 // Copyright (c) Asial Corporation. All rights reserved.
 //========================================================================
 
+//185 line modify by Anshao
+
 // TTF Font families
 define("FF_COURIER",10);
 define("FF_VERDANA",11);
@@ -182,11 +184,19 @@ class LanguageConv {
         }
         elseif( $aFF === FF_SIMSUN ) {
             // Do Chinese conversion
-            if( $this->g2312 == null ) {
+            
+        	/*
+        	 * 中文乱码解决 2012.9.7
+        	 * 注释掉原来的代码
+        	 * Modify:Anshao
+        	 * */
+            /*if( $this->g2312 == null ) {
                 include_once 'jpgraph_gb2312.php' ;
                 $this->g2312 = new GB2312toUTF8();
             }
             return $this->g2312->gb2utf8($aTxt);
+            */
+        	return $aTxt;
         }
         elseif( $aFF === FF_BIG5 ) {
             if( !function_exists('iconv') ) {
